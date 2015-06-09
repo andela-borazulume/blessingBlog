@@ -1,0 +1,96 @@
+.header {
+	background: url("../images/header.jpg");
+	background-size: cover;
+	background-size: 100% 85%;
+	background-repeat: no-repeat;
+	height: 500px;
+	width: 100%;
+	padding-bottom: 0;
+}
+.active {
+	color: #4DD0E1;
+}
+body {
+	background-color: #ECECEC;
+}
+
+
+.headerText{
+	text-align: center;
+	color: white;
+	font-size: 65px;
+	padding-top: 170px;
+	margin-bottom: 0;
+	font-family: 'Habibi', serif;
+}
+h5 {
+	text-align: center;
+	color: white;
+	font-family: 'Habibi', serif;
+}
+ul {
+	padding-top: 85px;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	
+}
+
+a {
+	color: #4C4C4C;
+	text-decoration: none;
+}
+a:hover {
+	color: #4DD0E1;
+}
+img {
+	height: 450px;
+}
+.md-padding {
+	padding-top: 300px;
+}
+.eachItem {
+	width: 55em;
+	margin: auto;
+	border-radius: 2px;
+	margin-bottom: 40px;
+}
+.md-title {
+	background-color: rgba(0,0,0,.5);
+	line-height: 60px;
+	color: white;
+	position: relative;
+	top: -77px;
+}
+.description {
+	padding-top: 40px;
+}
+
+.footer {
+	height: 40px;
+	font-size: 14px;
+	max-height: 250px;
+	width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+	text-align: center;
+	padding-top: 10px;
+  color: #434343;
+}
+@media ( max-width: 500px ){
+	h1 {
+		font-size: 36px;
+	}
+	
+	li {
+		padding: 5px;
+		display: block;
+	}
+}
+button {
+	background: #333300;
+	color: white;
+}

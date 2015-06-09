@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <!-- <link href="/normalize.css" rel="stylesheet"> -->
+	  <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="./css/blog.css">
+	  <link rel="stylesheet" type="text/css" href="lib/angular-material/angular-material.css">
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/blog.js"></script>
+		<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+		<script type="text/javascript" src="lib/angular-animate/angular-animate.js"></script>
+		<script type="text/javascript" src="lib/angular-aria/angular-aria.js"></script>
+		<script type="text/javascript" src="lib/angular-material/angular-material.js"></script>
+		<title>Blessing's Blog</title>
+	</head>
+	<body ng-app="app" ng-controller="test">
+		<div layout="column" layout-fill style="padding-bottom: 0px;">
+		  <md-whiteframe class="md-whiteframe-z1" layout layout-align="center center">
+		    <div class="header">
+		    	<h2 class="headerText">tech divas</h2>
+		    	<h5>a blog that gives insight about women in tech</h5>
+					<ul>
+						<li><a href="#" ng-click="select(datalist)" ng-class="{active: isActive(datalist)}">About Me</a></li>
+						<li><a href="#">Contacts</a></li>
+						<li><a href="#">What is happening</a></li>
+					</ul>
+				</div>
+		  </md-whiteframe>
+		</div>
+		<div class="body">
+			<md-content class="md-padding">
+		    <md-card class="eachItem" id="first">
+		      <img src="./images/food2.jpg" class="md-card-image" alt="Washed Out">
+		      <h2 class="md-title">My best Food</h2>
+		      <md-card-content class="description">
+		        <p>
+		          I do not have anything to write yet but i know I will go through with this. God is my strength and he will see me through in the name of Jesus christ
+		        </p>
+		      </md-card-content>
+		      <div class="md-actions" layout="row" layout-align="end center">
+		        <md-button class="md-icon-button md-accent" aria-label="Favorite">
+        			<md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+      			</md-button>
+		      </div>
+		    </md-card>
+		    <md-card class="eachItem">
+		      <img src="./images/girl.jpg" class="md-card-image" alt="Washed Out">
+		      <md-card-content>
+		        <h2 class="md-title">My best Food</h2>
+		        <p>
+		          I do not have anything to write yet but i know I will go through with this. God is my strength and he will see me through in the name of Jesus christ
+		        </p>
+		      </md-card-content>
+		      <div class="md-actions" layout="row" layout-align="end center">
+		        <md-button class="md-icon-button md-accent" aria-label="Favorite">
+        			<md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+      			</md-button>
+		      </div>
+		    </md-card>
+		    <md-card class="eachItem">
+		      <img src="./images/laptop.jpg" class="md-card-image" alt="Washed Out">
+		      <md-card-content>
+		        <h2 class="md-title">My best Food</h2>
+		        <p>
+		          I do not have anything to write yet but i know I will go through with this. God is my strength and he will see me through in the name of Jesus christ
+		        </p>
+		      </md-card-content>
+		      <div class="md-actions" layout="row" layout-align="end center">
+		        <md-button class="md-icon-button md-accent" aria-label="Favorite">
+        			<md-icon md-svg-icon="img/icons/favorite.svg"></md-icon>
+      			</md-button>
+		      </div>
+		    </md-card>
+		   </md-content>
+		</div>
+		<div>
+			<footer>
+	    <div class="footer">
+	      <span>Built with by <i class="fa fa-heart"></i> Blessing</span>
+	      </div>
+    	</footer>
+		</div>
+	</body>
+	
+</html>         
