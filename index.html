@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <link href="/normalize.css" rel="stylesheet">
+	  <style>
+	  	header {
+	  		text-align: center;
+	  		background: url("http://i.imgur.com/aURAkvm.jpg ");
+	  		background-size: 
+	  		color: black;
+	  	}
+
+	  	a {
+	  		color: white;
+	  	}
+
+	  	h1 {
+	  		font-size: 70px;
+	  	}
+
+	  	img {
+	  		margin: 40px 0px 0px 0px;
+	  		border: 7px solid black;
+	  		border-radius: 100px;
+	  	}
+
+	  	ul {
+	  		padding: 10px;
+	  		background: rgba(0,0,0,0.5);
+	  	}
+
+	  	li {
+	  		display: inline;
+	  		padding: 0px 10px 0px 10px;
+	  	}
+
+	  	article {
+	  		max-width: 500px;
+	  		padding:20px;
+	  		margin: 0 auto;
+	  		background: #8FB26B;
+	  	}
+
+	  	@media ( max-width: 500px ){
+	  		h1 {
+	  			font-size: 36px;
+	  		}
+	  		
+	  		li {
+	  			padding: 5px;
+	  			display: block;
+	  		}
+	  	}
+
+	  	body{
+	  		background: #003300;
+	  	}
+
+	  	button {
+	  		background: #333300;
+	  		color: white;
+	  	}
+	  </style>
+		<title>Blessing's Blog</title>
+	</head>
+	<body>
+	<header>
+		<img src="http://i.imgur.com/ZD7G4NN.jpg?1" title="source: imgur.com" />
+		<h1>Desmond's Blog</h1>
+		<ul>
+			<li><a href="#">About Me</a></li>
+			<li><a href="#">Contacts</a></li>
+			<li><a href="#">What is happening</a></li>
+		</ul>
+		</header>
+		<article>
+			<h2>My best Food</h2>
+			<p>I do not have anything to write yet but i know I will go through with this. God is my strength and he will see me through in the name of Jesus christ</p>
+			<button>Like</button>
+		</article>
+
+		<article>
+			<h2>My Family</h2>
+			<p>This is me again no words yet still thinking of what to write</p>
+			<button>Like</button>
+		</article>
+
+		<article>
+			<h2>myfriends</h2>
+			<p>Yet again....still pondering </p>
+			<button>Like</button>
+		</article>
+    
+    <script>
+	  $("button").on("click", function() {alert("Clicked")});
+	</script>
+	</body>
+	
+</html>         
